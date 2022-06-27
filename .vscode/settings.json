@@ -1,0 +1,12 @@
+{
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#3a3636",
+      "titleBar.inactiveBackground": "#100f0f"
+    },
+  
+    "editor.tokenColorCustomizations": {
+      "comments": "#EFDC05"
+    },
+    "liveServer.settings.port": 5501
+  }
+  

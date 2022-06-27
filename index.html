@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic-tac-toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Play Tic, Tec, Toe</h1>
+      <p>Built with HTML, CSS, Javascript and - of course - lots of love!</p>
+    </header>
+    <main>
+      <aside>
+        <!-- 보완할 내용이 있거나 상호작용 요소를 가지고 있을때마다 사용하기 좋은 html 요소 -->
+        <h2>Choose your name</h2>
+        <form>
+          <div>
+            <label for="playername">player name</label>
+            <input type="text" name="playername" id="playername" />
+          </div>
+          <div>
+            <button type="button" class="btn btn-alt">Cancel</button>
+            <button type="submit" class="btn">Comfirm</button>
+          </div>
+        </form>
+      </aside>
+      <section class="game-configuration">
+        <ol>
+          <li>
+            <article>
+              <h2>Player 1</h2>
+              <h3>PLAYER NAME</h3>
+              <p>X</p>
+              <button class="btn btn-alt">edit</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h2>Player 2</h2>
+              <h3>PLAYER NAME</h3>
+              <p>O</p>
+              <button class="btn btn-alt">edit</button>
+            </article>
+          </li>
+        </ol>
+        <button class="btn">Start new game</button>
+      </section>
+      <section class="active-game">
+        <article>
+          <h3>
+            Your won!, <span class="active-game__winner-name">PLAYERNAME</span>!
+          </h3>
+          <p>Click "Start new Game" above, to start a new game!</p>
+        </article>
+        <p>
+          It's your turn
+          <span class="active-game__play-name">PLAYER NAME</span>!
+        </p>
+        <ol>
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

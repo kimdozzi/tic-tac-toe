@@ -1,3 +1,14 @@
+@import "variables.css";
+
+/* Component */
+@import "game.css";
+
+/* Configure Overlay */
+@import "overlays.css";
+@import "configuration.css";
+
+
+
 body {
     margin: 0;
     font-family: 'Open-Sans', sans-serif;

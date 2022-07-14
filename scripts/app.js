@@ -1,5 +1,13 @@
+const gameData = [
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+];
+
 let editedPlayer = 0;
 let activePlayer = 0;
+let currentRound = 1;
+let gameIsOver = false;
 
 const players = [
   {
@@ -31,6 +39,7 @@ const gameBoardElement = document.querySelector(".active-game__game-board");
 const activePlayerNameElement = document.querySelector(
   ".active-game__play-name"
 );
+const gameOverElement = document.querySelector(".game-over");
 
 // const playerNameElement = document.querySelector("#playername");
 
